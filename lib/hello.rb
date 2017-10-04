@@ -3,7 +3,7 @@ def hello_t(names)
     if name.start_with?("T")
       puts "Hi, #{name}"
     else
-      puts "Hey! No block was given! #{name}"
+      puts "Hey! No block was given!"
     end
   end
 end
